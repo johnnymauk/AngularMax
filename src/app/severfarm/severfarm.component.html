@@ -1,0 +1,17 @@
+<hr>
+<p>{{ customTitle }}</p>
+<!-- String Interpolation Method -->
+<h3> {{ title }} </h3>
+<br>
+<br>
+<!-- Property Binding -->
+<button [value]="data" onclick="alert(value)">Hello</button>
+<br>
+<br>
+<!-- Event Binding -->
+<button (click)="changeName()">Change Name Button</button>
+<br>
+<br>
+<!-- Two-Way Binding -->
+<input type="text" [(ngModel)]="name">
+<h3> {{ name }}</h3>
